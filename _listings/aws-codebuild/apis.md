@@ -30,7 +30,7 @@ apis:
   tags: Builds
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/builds/master/_listings/aws-codebuild/action-listbuilds-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/builds/master/_listings/aws-codebuild/action-listbuildsforproject-get.md
 x-common:
 - type: x-command-line-interface
   url: http://docs.aws.amazon.com/cli/latest/reference/codebuild/index.html
