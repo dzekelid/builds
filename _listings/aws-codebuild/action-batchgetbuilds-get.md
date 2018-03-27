@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=BatchGetBuilds&k=1:
+  /?Action=BatchGetBuilds:
     get:
       summary: ' Batch Get Builds '
       description: Gets information about one or more builds
