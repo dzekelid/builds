@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ListBuildsForProject&k=1:
+  /?Action=ListBuildsForProject:
     get:
       summary: ' List Builds For Project '
       description: Gets a list of build IDs for the specified build project, with
