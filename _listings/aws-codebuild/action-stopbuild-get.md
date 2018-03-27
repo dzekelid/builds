@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=StopBuild&k=1:
+  /?Action=StopBuild:
     get:
       summary: ' Stop Build '
       description: Attempts to stop running a build
