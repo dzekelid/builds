@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=StartBuild&k=1:
+  /?Action=StartBuild:
     get:
       summary: ' Start Build '
       description: Starts running a build
