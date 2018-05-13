@@ -31,16 +31,16 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/builds/master/_listings/aws-codebuild/action-stopbuild-get.md
-- name: AWS CodeBuild API List Builds
-  description: Gets a list of build IDs, with each build ID representing a single
-    build.
+- name: AWS CodeBuild API List Builds For Project
+  description: Gets a list of build IDs for the specified build project, with each
+    build ID representing a single build.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/code-build-console-icon.png
   humanURL: https://aws.amazon.com/codebuild/
   baseURL: http:://{host}//
   tags: Builds
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/builds/master/_listings/aws-codebuild/action-listbuilds-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/builds/master/_listings/aws-codebuild/action-listbuildsforproject-get.md
 x-common:
 - type: x-command-line-interface
   url: http://docs.aws.amazon.com/cli/latest/reference/codebuild/index.html
