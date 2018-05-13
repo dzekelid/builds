@@ -31,15 +31,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/builds/master/_listings/aws-codebuild/action-stopbuild-get.md
-- name: AWS CodeBuild API Start Build
-  description: Starts running a build.
+- name: AWS CodeBuild API Stop Build
+  description: Attempts to stop running a build.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/code-build-console-icon.png
   humanURL: https://aws.amazon.com/codebuild/
   baseURL: http:://{host}//
   tags: Builds
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/builds/master/_listings/aws-codebuild/action-startbuild-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/builds/master/_listings/aws-codebuild/action-stopbuild-get.md
 x-common:
 - type: x-command-line-interface
   url: http://docs.aws.amazon.com/cli/latest/reference/codebuild/index.html
