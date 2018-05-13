@@ -32,7 +32,50 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/builds/master/_listings/circleci/recent-builds-get.md
+- name: CircleCI Get Recent Builds
+  description: Build summary for each of the last 30 recent builds, ordered by build_num.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/circleci-logo.png
+  humanURL: https://circleci.com/
+  baseURL: https://circleci.com//api/v1
+  tags: Builds
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/builds/master/_listings/circleci/recent-builds-get.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/builds/master/_listings/circleci/recent-builds-get-postman.md
 x-common:
+- type: x-blog
+  url: https://circleci.com/blog/
+- type: x-blog-rss
+  url: https://circleci.com/blog/feed.xml
+- type: x-case-studies
+  url: https://circleci.com/customers/
+- type: x-change-log
+  url: https://circleci.com/changelog/
+- type: x-contact-form
+  url: https://circleci.com/contact/
+- type: x-documentation
+  url: https://circleci.com/docs/
+- type: x-github
+  url: https://github.com/circleci
+- type: x-linkedin
+  url: https://www.linkedin.com/company/circleci
+- type: x-pricing
+  url: https://circleci.com/pricing/
+- type: x-privacy-policy
+  url: https://circleci.com/privacy/
+- type: x-selfservice-registration
+  url: https://circleci.com/signup/
+- type: x-status
+  url: https://status.circleci.com/
+- type: x-support
+  url: https://support.circleci.com/hc/en-us
+- type: x-terms-of-service
+  url: https://circleci.com/terms-of-service/
+- type: x-twitter
+  url: https://twitter.com/circleci
+- type: x-website
+  url: https://circleci.com/
 - type: x-blog
   url: https://circleci.com/blog/
 - type: x-blog-rss
