@@ -15,6 +15,62 @@ produces:
 consumes:
 - application/json
 paths:
+  /v3/projects/{id}/builds:
+    get:
+      summary: Get Projects Builds
+      description: Get a project builds
+      operationId: getV3ProjectsIdBuilds
+      x-api-path-slug: v3projectsidbuilds-get
+      parameters:
+      - in: path
+        name: id
+        description: The ID of a project
+      - in: query
+        name: page
+        description: Current page number
+      - in: query
+        name: per_page
+        description: Number of items per page
+      - in: query
+        name: scope
+        description: The scope of builds to show
+      responses:
+        200:
+          description: OK
+      tags:
+      - Projects
+      - Builds
+  /v3/projects/{id}/repository/commits/{sha}/builds:
+    get:
+      summary: Get Projects Repository Commits Sha Builds
+      description: Get builds for a specific commit of a project
+      operationId: getV3ProjectsIdRepositoryCommitsShaBuilds
+      x-api-path-slug: v3projectsidrepositorycommitsshabuilds-get
+      parameters:
+      - in: path
+        name: id
+        description: The ID of a project
+      - in: query
+        name: page
+        description: Current page number
+      - in: query
+        name: per_page
+        description: Number of items per page
+      - in: query
+        name: scope
+        description: The scope of builds to show
+      - in: path
+        name: sha
+        description: The SHA id of a commit
+      responses:
+        200:
+          description: OK
+      tags:
+      - Projects
+      - Repository
+      - Commits
+      - Sha
+      - Builds
   /v3/projects/{id}/builds/{build_id}:
     get:
       summary: Get Projects Builds Build

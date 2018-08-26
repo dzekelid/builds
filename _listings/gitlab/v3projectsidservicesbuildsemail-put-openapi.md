@@ -15,6 +15,62 @@ produces:
 consumes:
 - application/json
 paths:
+  /v3/projects/{id}/builds:
+    get:
+      summary: Get Projects Builds
+      description: Get a project builds
+      operationId: getV3ProjectsIdBuilds
+      x-api-path-slug: v3projectsidbuilds-get
+      parameters:
+      - in: path
+        name: id
+        description: The ID of a project
+      - in: query
+        name: page
+        description: Current page number
+      - in: query
+        name: per_page
+        description: Number of items per page
+      - in: query
+        name: scope
+        description: The scope of builds to show
+      responses:
+        200:
+          description: OK
+      tags:
+      - Projects
+      - Builds
+  /v3/projects/{id}/repository/commits/{sha}/builds:
+    get:
+      summary: Get Projects Repository Commits Sha Builds
+      description: Get builds for a specific commit of a project
+      operationId: getV3ProjectsIdRepositoryCommitsShaBuilds
+      x-api-path-slug: v3projectsidrepositorycommitsshabuilds-get
+      parameters:
+      - in: path
+        name: id
+        description: The ID of a project
+      - in: query
+        name: page
+        description: Current page number
+      - in: query
+        name: per_page
+        description: Number of items per page
+      - in: query
+        name: scope
+        description: The scope of builds to show
+      - in: path
+        name: sha
+        description: The SHA id of a commit
+      responses:
+        200:
+          description: OK
+      tags:
+      - Projects
+      - Repository
+      - Commits
+      - Sha
+      - Builds
   /v3/projects/{id}/builds/{build_id}:
     get:
       summary: Get Projects Builds Build
@@ -56,6 +112,32 @@ paths:
       - Builds
       - Build
       - Artifacts
+  /v3/projects/{id}/builds/artifacts/{ref_name}/download:
+    get:
+      summary: Get Projects Builds Artifacts Ref Name Download
+      description: Get projects builds artifacts ref name download.
+      operationId: getV3ProjectsIdBuildsArtifactsRefNameDownload
+      x-api-path-slug: v3projectsidbuildsartifactsref-namedownload-get
+      parameters:
+      - in: path
+        name: id
+        description: The ID of a project
+      - in: query
+        name: job
+        description: The name for the build
+      - in: path
+        name: ref_name
+        description: The ref from repository
+      responses:
+        200:
+          description: OK
+      tags:
+      - Projects
+      - Builds
+      - Artifacts
+      - Ref
+      - Name
+      - Download
   /v3/projects/{id}/builds/{build_id}/trace:
     get:
       summary: Get Projects Builds Build Trace
@@ -183,143 +265,6 @@ paths:
       - Builds
       - Build
       - Play
-  /v3/projects/{id}/merge_request/{merge_request_id}/cancel_merge_when_build_succeeds:
-    post:
-      summary: Post Projects Merge Request Merge Request Cancel Merge When Build Succeeds
-      description: Post projects merge request merge request cancel merge when build
-        succeeds.
-      operationId: postV3ProjectsIdMergeRequestMergeRequestIdCancelMergeWhenBuildSucceeds
-      x-api-path-slug: v3projectsidmerge-requestmerge-request-idcancel-merge-when-build-succeeds-post
-      parameters:
-      - in: path
-        name: id
-        description: The ID of a project
-      - in: path
-        name: merge_request_id
-      responses:
-        200:
-          description: OK
-      tags:
-      - Projects
-      - Merge
-      - Request
-      - Merge
-      - Request
-      - Cancel
-      - Merge
-      - When
-      - Build
-      - Succeeds
-  /v3/projects/{id}/merge_requests/{merge_request_id}/cancel_merge_when_build_succeeds:
-    post:
-      summary: Post Projects Merge Requests Merge Request Cancel Merge When Build
-        Succeeds
-      description: Post projects merge requests merge request cancel merge when build
-        succeeds.
-      operationId: postV3ProjectsIdMergeRequestsMergeRequestIdCancelMergeWhenBuildSucceeds
-      x-api-path-slug: v3projectsidmerge-requestsmerge-request-idcancel-merge-when-build-succeeds-post
-      parameters:
-      - in: path
-        name: id
-        description: The ID of a project
-      - in: path
-        name: merge_request_id
-      responses:
-        200:
-          description: OK
-      tags:
-      - Projects
-      - Merge
-      - Requests
-      - Merge
-      - Request
-      - Cancel
-      - Merge
-      - When
-      - Build
-      - Succeeds
-  /v3/projects/{id}/builds:
-    get:
-      summary: Get Projects Builds
-      description: Get a project builds
-      operationId: getV3ProjectsIdBuilds
-      x-api-path-slug: v3projectsidbuilds-get
-      parameters:
-      - in: path
-        name: id
-        description: The ID of a project
-      - in: query
-        name: page
-        description: Current page number
-      - in: query
-        name: per_page
-        description: Number of items per page
-      - in: query
-        name: scope
-        description: The scope of builds to show
-      responses:
-        200:
-          description: OK
-      tags:
-      - Projects
-      - Builds
-  /v3/projects/{id}/repository/commits/{sha}/builds:
-    get:
-      summary: Get Projects Repository Commits Sha Builds
-      description: Get builds for a specific commit of a project
-      operationId: getV3ProjectsIdRepositoryCommitsShaBuilds
-      x-api-path-slug: v3projectsidrepositorycommitsshabuilds-get
-      parameters:
-      - in: path
-        name: id
-        description: The ID of a project
-      - in: query
-        name: page
-        description: Current page number
-      - in: query
-        name: per_page
-        description: Number of items per page
-      - in: query
-        name: scope
-        description: The scope of builds to show
-      - in: path
-        name: sha
-        description: The SHA id of a commit
-      responses:
-        200:
-          description: OK
-      tags:
-      - Projects
-      - Repository
-      - Commits
-      - Sha
-      - Builds
-  /v3/projects/{id}/builds/artifacts/{ref_name}/download:
-    get:
-      summary: Get Projects Builds Artifacts Ref Name Download
-      description: Get projects builds artifacts ref name download.
-      operationId: getV3ProjectsIdBuildsArtifactsRefNameDownload
-      x-api-path-slug: v3projectsidbuildsartifactsref-namedownload-get
-      parameters:
-      - in: path
-        name: id
-        description: The ID of a project
-      - in: query
-        name: job
-        description: The name for the build
-      - in: path
-        name: ref_name
-        description: The ref from repository
-      responses:
-        200:
-          description: OK
-      tags:
-      - Projects
-      - Builds
-      - Artifacts
-      - Ref
-      - Name
-      - Download
   /v3/projects/{id}/services/builds-email:
     put:
       summary: Put Projects Services Builds Email
