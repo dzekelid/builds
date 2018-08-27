@@ -13,6 +13,168 @@ modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/builds/master/_listings/circleci/apis.md
 specificationVersion: "0.14"
 apis:
+- name: CircleCI - Delete Project Username Project Build Cache
+  x-api-slug: projectusernameprojectbuildcache-delete
+  description: Delete project username project build cache.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28120-circleci.jpg
+  humanURL: http://circleci.com
+  baseURL: https://circleci.com//api/v1
+  tags: Developers, Orchestration, Continuous Integration, Continuous Deployment,
+    SaaS, Technology, Enterprise, API Service Provider, Profiles, Service API, Relative
+    Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/builds/master/_listings/circleci/projectusernameprojectbuildcache-delete-openapi.md
+- name: CircleCI - Parameters Project Username Project Build Cache
+  x-api-slug: projectusernameprojectbuildcache-parameters
+  description: Parameters project username project build cache.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28120-circleci.jpg
+  humanURL: http://circleci.com
+  baseURL: https://circleci.com//api/v1
+  tags: Developers, Orchestration, Continuous Integration, Continuous Deployment,
+    SaaS, Technology, Enterprise, API Service Provider, Profiles, Service API, Relative
+    Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/builds/master/_listings/circleci/projectusernameprojectbuildcache-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/builds/master/_listings/circleci/projectusernameprojectbuildcache-parameters-openapi.md
+- name: CircleCI - Get Project Username Project Build Num
+  x-api-slug: projectusernameprojectbuild-num-get
+  description: |-
+    Full details for a single build. The response includes all of the fields from the build summary.
+    This is also the payload for the [notification webhooks](/docs/configuration/#notify), in which case this object is the value to a key named 'payload'.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28120-circleci.jpg
+  humanURL: http://circleci.com
+  baseURL: https://circleci.com//api/v1
+  tags: Developers, Orchestration, Continuous Integration, Continuous Deployment,
+    SaaS, Technology, Enterprise, API Service Provider, Profiles, Service API, Relative
+    Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/builds/master/_listings/circleci/projectusernameprojectbuild-num-get-openapi.md
+- name: CircleCI - Parameters Project Username Project Build Num
+  x-api-slug: projectusernameprojectbuild-num-parameters
+  description: Parameters project username project build num.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28120-circleci.jpg
+  humanURL: http://circleci.com
+  baseURL: https://circleci.com//api/v1
+  tags: Developers, Orchestration, Continuous Integration, Continuous Deployment,
+    SaaS, Technology, Enterprise, API Service Provider, Profiles, Service API, Relative
+    Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/builds/master/_listings/circleci/projectusernameprojectbuild-num-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/builds/master/_listings/circleci/projectusernameprojectbuild-num-parameters-openapi.md
+- name: CircleCI - Get Project Username Project Build Num Artifacts
+  x-api-slug: projectusernameprojectbuild-numartifacts-get
+  description: Get project username project build num artifacts.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28120-circleci.jpg
+  humanURL: http://circleci.com
+  baseURL: https://circleci.com//api/v1
+  tags: Developers, Orchestration, Continuous Integration, Continuous Deployment,
+    SaaS, Technology, Enterprise, API Service Provider, Profiles, Service API, Relative
+    Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/builds/master/_listings/circleci/projectusernameprojectbuild-numartifacts-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/builds/master/_listings/circleci/projectusernameprojectbuild-numartifacts-get-openapi.md
+- name: CircleCI - Parameters Project Username Project Build Num Artifacts
+  x-api-slug: projectusernameprojectbuild-numartifacts-parameters
+  description: Parameters project username project build num artifacts.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28120-circleci.jpg
+  humanURL: http://circleci.com
+  baseURL: https://circleci.com//api/v1
+  tags: Developers, Orchestration, Continuous Integration, Continuous Deployment,
+    SaaS, Technology, Enterprise, API Service Provider, Profiles, Service API, Relative
+    Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/builds/master/_listings/circleci/projectusernameprojectbuild-numartifacts-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/builds/master/_listings/circleci/projectusernameprojectbuild-numartifacts-parameters-openapi.md
+- name: CircleCI - Parameters Project Username Project Build Num Cancel
+  x-api-slug: projectusernameprojectbuild-numcancel-parameters
+  description: Parameters project username project build num cancel.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28120-circleci.jpg
+  humanURL: http://circleci.com
+  baseURL: https://circleci.com//api/v1
+  tags: Developers, Orchestration, Continuous Integration, Continuous Deployment,
+    SaaS, Technology, Enterprise, API Service Provider, Profiles, Service API, Relative
+    Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/builds/master/_listings/circleci/projectusernameprojectbuild-numcancel-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/builds/master/_listings/circleci/projectusernameprojectbuild-numcancel-parameters-openapi.md
+- name: CircleCI - Add Project Username Project Build Num Cancel
+  x-api-slug: projectusernameprojectbuild-numcancel-post
+  description: Cancels the build, returns a summary of the build.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28120-circleci.jpg
+  humanURL: http://circleci.com
+  baseURL: https://circleci.com//api/v1
+  tags: Developers, Orchestration, Continuous Integration, Continuous Deployment,
+    SaaS, Technology, Enterprise, API Service Provider, Profiles, Service API, Relative
+    Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/builds/master/_listings/circleci/projectusernameprojectbuild-numcancel-post-openapi.md
+- name: CircleCI - Parameters Project Username Project Build Num Retry
+  x-api-slug: projectusernameprojectbuild-numretry-parameters
+  description: Parameters project username project build num retry.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28120-circleci.jpg
+  humanURL: http://circleci.com
+  baseURL: https://circleci.com//api/v1
+  tags: Developers, Orchestration, Continuous Integration, Continuous Deployment,
+    SaaS, Technology, Enterprise, API Service Provider, Profiles, Service API, Relative
+    Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/builds/master/_listings/circleci/projectusernameprojectbuild-numretry-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/builds/master/_listings/circleci/projectusernameprojectbuild-numretry-parameters-openapi.md
+- name: CircleCI - Add Project Username Project Build Num Retry
+  x-api-slug: projectusernameprojectbuild-numretry-post
+  description: Retries the build, returns a summary of the new build.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28120-circleci.jpg
+  humanURL: http://circleci.com
+  baseURL: https://circleci.com//api/v1
+  tags: Developers, Orchestration, Continuous Integration, Continuous Deployment,
+    SaaS, Technology, Enterprise, API Service Provider, Profiles, Service API, Relative
+    Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/builds/master/_listings/circleci/projectusernameprojectbuild-numretry-post-openapi.md
+- name: CircleCI - Get Project Username Project Build Num Tests
+  x-api-slug: projectusernameprojectbuild-numtests-get
+  description: |-
+    Provides test metadata for a build
+    Note: [Learn how to set up your builds to collect test metadata](https://circleci.com/docs/test-metadata/)
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28120-circleci.jpg
+  humanURL: http://circleci.com
+  baseURL: https://circleci.com//api/v1
+  tags: Developers, Orchestration, Continuous Integration, Continuous Deployment,
+    SaaS, Technology, Enterprise, API Service Provider, Profiles, Service API, Relative
+    Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/builds/master/_listings/circleci/projectusernameprojectbuild-numtests-get-openapi.md
+- name: CircleCI - Parameters Project Username Project Build Num Tests
+  x-api-slug: projectusernameprojectbuild-numtests-parameters
+  description: Parameters project username project build num tests.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28120-circleci.jpg
+  humanURL: http://circleci.com
+  baseURL: https://circleci.com//api/v1
+  tags: Developers, Orchestration, Continuous Integration, Continuous Deployment,
+    SaaS, Technology, Enterprise, API Service Provider, Profiles, Service API, Relative
+    Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/builds/master/_listings/circleci/projectusernameprojectbuild-numtests-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/builds/master/_listings/circleci/projectusernameprojectbuild-numtests-parameters-openapi.md
 - name: CircleCI - Get Recent Builds
   x-api-slug: recentbuilds-get
   description: Build summary for each of the last 30 recent builds, ordered by build_num.

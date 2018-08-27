@@ -13,30 +13,6 @@ modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/builds/master/_listings/gitlab/apis.md
 specificationVersion: "0.14"
 apis:
-- name: API title - Get Projects Builds
-  x-api-slug: v3projectsidbuilds-get
-  description: Get a project builds
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/githlab-logo.png
-  humanURL: http://gitlab.com
-  baseURL: https://localhost:3000//api
-  tags: Orchestration, Code, Static, Versions, Relative Data, Service API
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/builds/master/_listings/gitlab/v3projectsidbuilds-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/builds/master/_listings/gitlab/v3projectsidbuilds-get-openapi.md
-- name: API title - Get Projects Repository Commits Sha Builds
-  x-api-slug: v3projectsidrepositorycommitsshabuilds-get
-  description: Get builds for a specific commit of a project
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/githlab-logo.png
-  humanURL: http://gitlab.com
-  baseURL: https://localhost:3000//api
-  tags: Orchestration, Code, Static, Versions, Relative Data, Service API
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/builds/master/_listings/gitlab/v3projectsidrepositorycommitsshabuilds-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/builds/master/_listings/gitlab/v3projectsidrepositorycommitsshabuilds-get-openapi.md
 - name: API title - Get Projects Builds Build
   x-api-slug: v3projectsidbuildsbuild-id-get
   description: Get a specific build of a project
@@ -61,18 +37,6 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/builds/master/_listings/gitlab/v3projectsidbuildsbuild-idartifacts-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/builds/master/_listings/gitlab/v3projectsidbuildsbuild-idartifacts-get-openapi.md
-- name: API title - Get Projects Builds Artifacts Ref Name Download
-  x-api-slug: v3projectsidbuildsartifactsref-namedownload-get
-  description: Get projects builds artifacts ref name download.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/githlab-logo.png
-  humanURL: http://gitlab.com
-  baseURL: https://localhost:3000//api
-  tags: Orchestration, Code, Static, Versions, Relative Data, Service API
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/builds/master/_listings/gitlab/v3projectsidbuildsartifactsref-namedownload-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/builds/master/_listings/gitlab/v3projectsidbuildsartifactsref-namedownload-get-openapi.md
 - name: API title - Get Projects Builds Build Trace
   x-api-slug: v3projectsidbuildsbuild-idtrace-get
   description: Get a trace of a specific build of a project
@@ -145,6 +109,69 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/builds/master/_listings/gitlab/v3projectsidbuildsbuild-idplay-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/builds/master/_listings/gitlab/v3projectsidbuildsbuild-idplay-post-openapi.md
+- name: API title - Post Projects Merge Request Merge Request Cancel Merge When Build
+    Succeeds
+  x-api-slug: v3projectsidmerge-requestmerge-request-idcancel-merge-when-build-succeeds-post
+  description: Post projects merge request merge request cancel merge when build succeeds.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/githlab-logo.png
+  humanURL: http://gitlab.com
+  baseURL: https://localhost:3000//api
+  tags: Orchestration, Code, Static, Versions, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/builds/master/_listings/gitlab/v3projectsidmerge-requestmerge-request-idcancel-merge-when-build-succeeds-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/builds/master/_listings/gitlab/v3projectsidmerge-requestmerge-request-idcancel-merge-when-build-succeeds-post-openapi.md
+- name: API title - Post Projects Merge Requests Merge Request Cancel Merge When Build
+    Succeeds
+  x-api-slug: v3projectsidmerge-requestsmerge-request-idcancel-merge-when-build-succeeds-post
+  description: Post projects merge requests merge request cancel merge when build
+    succeeds.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/githlab-logo.png
+  humanURL: http://gitlab.com
+  baseURL: https://localhost:3000//api
+  tags: Orchestration, Code, Static, Versions, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/builds/master/_listings/gitlab/v3projectsidmerge-requestsmerge-request-idcancel-merge-when-build-succeeds-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/builds/master/_listings/gitlab/v3projectsidmerge-requestsmerge-request-idcancel-merge-when-build-succeeds-post-openapi.md
+- name: API title - Get Projects Builds
+  x-api-slug: v3projectsidbuilds-get
+  description: Get a project builds
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/githlab-logo.png
+  humanURL: http://gitlab.com
+  baseURL: https://localhost:3000//api
+  tags: Orchestration, Code, Static, Versions, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/builds/master/_listings/gitlab/v3projectsidbuilds-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/builds/master/_listings/gitlab/v3projectsidbuilds-get-openapi.md
+- name: API title - Get Projects Repository Commits Sha Builds
+  x-api-slug: v3projectsidrepositorycommitsshabuilds-get
+  description: Get builds for a specific commit of a project
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/githlab-logo.png
+  humanURL: http://gitlab.com
+  baseURL: https://localhost:3000//api
+  tags: Orchestration, Code, Static, Versions, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/builds/master/_listings/gitlab/v3projectsidrepositorycommitsshabuilds-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/builds/master/_listings/gitlab/v3projectsidrepositorycommitsshabuilds-get-openapi.md
+- name: API title - Get Projects Builds Artifacts Ref Name Download
+  x-api-slug: v3projectsidbuildsartifactsref-namedownload-get
+  description: Get projects builds artifacts ref name download.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/githlab-logo.png
+  humanURL: http://gitlab.com
+  baseURL: https://localhost:3000//api
+  tags: Orchestration, Code, Static, Versions, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/builds/master/_listings/gitlab/v3projectsidbuildsartifactsref-namedownload-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/builds/master/_listings/gitlab/v3projectsidbuildsartifactsref-namedownload-get-openapi.md
 - name: API title - Put Projects Services Builds Email
   x-api-slug: v3projectsidservicesbuildsemail-put
   description: Set builds-email service for project

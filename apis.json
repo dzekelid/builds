@@ -8,6 +8,36 @@
 	"specificationVersion": "0.14",
 	"apis": [
 		{
+			"name": "moltin",
+			"x-api-slug": "moltin",
+			"description": "The comprehensive eCommerce API infrastructure for any platform. Moltin handles data storage and eCommerce logic in the cloud so that you can focus on creating great customer experiences.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/moltin-logo.png",
+			"humanURL": "https://moltin.com",
+			"baseURL": "https://api.moltin.com//",
+			"tags": "Builds",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/builds/master/_listings/moltin/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Bitbucket",
+			"x-api-slug": "bitbucket",
+			"description": "Collaborate on code with inline comments and pull requests. Manage and share your Git repositories to build and ship software, as a team.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg",
+			"humanURL": "http://bitbucket.org",
+			"baseURL": "https://api.bitbucket.org//2.0",
+			"tags": "Builds",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/builds/master/_listings/bitbucket/openapi.md"
+				}
+			]
+		},
+		{
 			"name": "AWS CodeBuild",
 			"x-api-slug": "aws-codebuild",
 			"description": "AWS CodeBuild is a fully managed build service that compiles source code, runs tests, and produces software packages that are ready to deploy. With CodeBuild, you don&rsquo;t need to provision, manage, and scale your own build servers. CodeBuild scales continuously and processes multiple builds concurrently, so your builds are not left waiting in a queue. You can get started quickly by using prepackaged build environments, or you can create custom build environments that use your own build tools. With CodeBuild, you are charged by the minute for the compute resources you use.",
@@ -19,6 +49,21 @@
 				{
 					"type": "x-openapi-spec",
 					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/builds/master/_listings/aws-codebuild/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Google Cloud Container Builder",
+			"x-api-slug": "google-cloud-container-builder",
+			"description": "Google Cloud Container Builder lets you create Docker container images from application source code located in Google Cloud Storage. Container images created by Container Builder are automatically stored in Google Container Registry. You can deploy the container images you create on Google Container Engine, Google Compute Engine, Google App Engine flexible environment or other services where you can run applications from Docker containers.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/container-builder-lead.png",
+			"humanURL": "https://cloud.google.com/container-builder/",
+			"baseURL": "://cloudbuild.googleapis.com//",
+			"tags": "Builds",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/builds/master/_listings/google-cloud-container-builder/openapi.md"
 				}
 			]
 		},
@@ -68,6 +113,21 @@
 			]
 		},
 		{
+			"name": "IBM Cloud",
+			"x-api-slug": "ibm-cloud",
+			"description": "The IBM Cloud has been built to help you solve problems and advance opportunities in a world flush with data. Whether it&rsquo;s data you possess, data outside your firewall, or data that&rsquo;s coming, the IBM Cloud helps you protect it, move it, integrate it and unlock intelligence from it &mdash; giving you what it takes to prevail in a competitive market.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28560-ibm-containers.jpg",
+			"humanURL": "https://www.ibm.com/cloud/",
+			"baseURL": "https://containers-api.ng.bluemix.net//v3",
+			"tags": "Builds",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/builds/master/_listings/ibm-cloud/openapi.md"
+				}
+			]
+		},
+		{
 			"name": "Codefresh",
 			"x-api-slug": "codefresh",
 			"description": "Docker Automation and Collaboration for Agile Teams. Codefresh lets dev, QA and product work together on Docker compositions, including CI/CD, manual testing and feature previews.Codefresh enables you to instantly leverage all the benefits of Docker, w...",
@@ -101,8 +161,20 @@
 	"tags": "Builds",
 	"include": [
 		{
+			"name": "moltin",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/builds/master/_listings/moltin/apis.yaml"
+		},
+		{
+			"name": "Bitbucket",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/builds/master/_listings/bitbucket/apis.yaml"
+		},
+		{
 			"name": "AWS CodeBuild",
 			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/builds/master/_listings/aws-codebuild/apis.yaml"
+		},
+		{
+			"name": "Google Cloud Container Builder",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/builds/master/_listings/google-cloud-container-builder/apis.yaml"
 		},
 		{
 			"name": "Neblio",
@@ -115,6 +187,10 @@
 		{
 			"name": "AppVeyor CI",
 			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/builds/master/_listings/appveyor-ci/apis.yaml"
+		},
+		{
+			"name": "IBM Cloud",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/builds/master/_listings/ibm-cloud/apis.yaml"
 		},
 		{
 			"name": "Codefresh",
