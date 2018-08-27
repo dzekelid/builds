@@ -9,11 +9,51 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28738-code
 x-kinRank: "7"
 x-alexaRank: "240033"
 tags: Builds
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/builds/master/_listings/codefresh/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Codefresh API - Get Builds Buildid
+  x-api-slug: buildsbuildid-get
+  description: Get builds buildid.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28738-codefresh-io.jpg
+  humanURL: https://codefresh.io
+  baseURL: https://g.codefresh.io//api
+  tags: SaaS, Technology, Enterprise, Orchestration, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/builds/master/_listings/codefresh/buildsbuildid-get-openapi.md
+- name: Codefresh API - Post Builds Serviceid
+  x-api-slug: buildsserviceid-post
+  description: Post builds serviceid.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28738-codefresh-io.jpg
+  humanURL: https://codefresh.io
+  baseURL: https://g.codefresh.io//api
+  tags: SaaS, Technology, Enterprise, Orchestration, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/builds/master/_listings/codefresh/buildsserviceid-post-openapi.md
+- name: Codefresh API - Post Builds Buildid Update
+  x-api-slug: buildsbuildidupdate-post
+  description: Post builds buildid update.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28738-codefresh-io.jpg
+  humanURL: https://codefresh.io
+  baseURL: https://g.codefresh.io//api
+  tags: SaaS, Technology, Enterprise, Orchestration, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/builds/master/_listings/codefresh/buildsbuildidupdate-post-openapi.md
+- name: Codefresh API - Get Builds
+  x-api-slug: builds-get
+  description: Get builds.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28738-codefresh-io.jpg
+  humanURL: https://codefresh.io
+  baseURL: https://g.codefresh.io//api
+  tags: SaaS, Technology, Enterprise, Orchestration, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/builds/master/_listings/codefresh/builds-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://code.gov.api.gallery.streamdata.io

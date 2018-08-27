@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: AWS CodeBuild
 x-complete: 1
@@ -135,4 +134,3 @@ paths:
           description: OK
       tags:
       - Project Builds
----

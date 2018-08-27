@@ -9,11 +9,77 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26754-nebl
 x-kinRank: "7"
 x-alexaRank: "350300"
 tags: Builds
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/builds/master/_listings/neblio/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Neblio REST API Suite - Builds a transaction that issues a new NTP1 Token
+  x-api-slug: ntp1issue-post
+  description: Builds an unsigned raw transaction that issues a new NTP1 token on
+    the Neblio blockchain.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26754-neblio.jpg
+  humanURL: https://nebl.io
+  baseURL: https://ntp1node.nebl.io//
+  tags: Enterprise, Technology, SaaS, Blockchain, Profiles, Networks
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/builds/master/_listings/neblio/ntp1issue-post-openapi.md
+- name: Neblio REST API Suite - Builds a transaction that sends an NTP1 Token
+  x-api-slug: ntp1sendtoken-post
+  description: Builds an unsigned raw transaction that sends an NTP1 token on the
+    Neblio blockchain.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26754-neblio.jpg
+  humanURL: https://nebl.io
+  baseURL: https://ntp1node.nebl.io//
+  tags: Enterprise, Technology, SaaS, Blockchain, Profiles, Networks
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/builds/master/_listings/neblio/ntp1sendtoken-post-openapi.md
+- name: Neblio REST API Suite - Builds a transaction that burns an NTP1 Token
+  x-api-slug: ntp1burntoken-post
+  description: Builds an unsigned raw transaction that burns an NTP1 token on the
+    Neblio blockchain.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26754-neblio.jpg
+  humanURL: https://nebl.io
+  baseURL: https://ntp1node.nebl.io//
+  tags: Enterprise, Technology, SaaS, Blockchain, Profiles, Networks
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/builds/master/_listings/neblio/ntp1burntoken-post-openapi.md
+- name: Neblio REST API Suite - Builds a transaction that issues a new NTP1 Token
+  x-api-slug: testnetntp1issue-post
+  description: Builds an unsigned raw transaction that issues a new NTP1 token on
+    the Neblio blockchain.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26754-neblio.jpg
+  humanURL: https://nebl.io
+  baseURL: https://ntp1node.nebl.io//
+  tags: Enterprise, Technology, SaaS, Blockchain, Profiles, Networks
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/builds/master/_listings/neblio/testnetntp1issue-post-openapi.md
+- name: Neblio REST API Suite - Builds a transaction that sends an NTP1 Token
+  x-api-slug: testnetntp1sendtoken-post
+  description: Builds an unsigned raw transaction that sends an NTP1 token on the
+    Neblio blockchain.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26754-neblio.jpg
+  humanURL: https://nebl.io
+  baseURL: https://ntp1node.nebl.io//
+  tags: Enterprise, Technology, SaaS, Blockchain, Profiles, Networks
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/builds/master/_listings/neblio/testnetntp1sendtoken-post-openapi.md
+- name: Neblio REST API Suite - Builds a transaction that burns an NTP1 Token
+  x-api-slug: testnetntp1burntoken-post
+  description: Builds an unsigned raw transaction that burns an NTP1 token on the
+    Neblio blockchain.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26754-neblio.jpg
+  humanURL: https://nebl.io
+  baseURL: https://ntp1node.nebl.io//
+  tags: Enterprise, Technology, SaaS, Blockchain, Profiles, Networks
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/builds/master/_listings/neblio/testnetntp1burntoken-post-openapi.md
 x-common:
 - type: x-blog-rss
   url: https://nebl.io/feed/

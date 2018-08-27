@@ -13,11 +13,68 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Builds
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/builds/master/_listings/aws-codebuild/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: AWS CodeBuild API - Batch Get Builds
+  x-api-slug: actionbatchgetbuilds-get
+  description: Gets information about one or more builds.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/code-build-console-icon.png
+  humanURL: https://aws.amazon.com/codebuild/
+  baseURL: :///
+  tags: Amazon Web Services, SDK, Orchestration, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/builds/master/_listings/aws-codebuild/actionbatchgetbuilds-get-openapi.md
+- name: AWS CodeBuild API - List Builds
+  x-api-slug: actionlistbuilds-get
+  description: Gets a list of build IDs, with each build ID representing a single
+    build.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/code-build-console-icon.png
+  humanURL: https://aws.amazon.com/codebuild/
+  baseURL: :///
+  tags: Amazon Web Services, SDK, Orchestration, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/builds/master/_listings/aws-codebuild/actionlistbuilds-get-openapi.md
+- name: AWS CodeBuild API - Start Build
+  x-api-slug: actionstartbuild-get
+  description: Starts running a build.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/code-build-console-icon.png
+  humanURL: https://aws.amazon.com/codebuild/
+  baseURL: :///
+  tags: Amazon Web Services, SDK, Orchestration, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/builds/master/_listings/aws-codebuild/actionstartbuild-get-openapi.md
+- name: AWS CodeBuild API - Stop Build
+  x-api-slug: actionstopbuild-get
+  description: Attempts to stop running a build.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/code-build-console-icon.png
+  humanURL: https://aws.amazon.com/codebuild/
+  baseURL: :///
+  tags: Amazon Web Services, SDK, Orchestration, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/builds/master/_listings/aws-codebuild/actionstopbuild-get-openapi.md
+- name: AWS CodeBuild API - List Builds For Project
+  x-api-slug: actionlistbuildsforproject-get
+  description: Gets a list of build IDs for the specified build project, with each
+    build ID representing a single build.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/code-build-console-icon.png
+  humanURL: https://aws.amazon.com/codebuild/
+  baseURL: :///
+  tags: Amazon Web Services, SDK, Orchestration, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/builds/master/_listings/aws-codebuild/actionlistbuildsforproject-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://aws.code.pipeline.api.gallery.streamdata.io

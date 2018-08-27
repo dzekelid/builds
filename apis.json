@@ -1,0 +1,128 @@
+{
+	"name": "Streadata.io API Gallery - Builds",
+	"description": "This is a repository of builds APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/builds.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-27",
+	"url": "http://builds.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "AWS CodeBuild",
+			"x-api-slug": "aws-codebuild",
+			"description": "AWS CodeBuild is a fully managed build service that compiles source code, runs tests, and produces software packages that are ready to deploy. With CodeBuild, you don&rsquo;t need to provision, manage, and scale your own build servers. CodeBuild scales continuously and processes multiple builds concurrently, so your builds are not left waiting in a queue. You can get started quickly by using prepackaged build environments, or you can create custom build environments that use your own build tools. With CodeBuild, you are charged by the minute for the compute resources you use.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/code-build-console-icon.png",
+			"humanURL": "https://aws.amazon.com/codebuild/",
+			"baseURL": ":///",
+			"tags": "Builds",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/builds/master/_listings/aws-codebuild/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Neblio",
+			"x-api-slug": "neblio",
+			"description": "Neblio was born out of the need for simple and intuitive tools and solutions to drive the adoption of blockchain technology in the enterprise space. We are working on tools, services, and APIs that will simplify and revolutionize the way that businesses deploy next-generation applications on the Neblio Blockchain Platform.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26754-neblio.jpg",
+			"humanURL": "https://nebl.io",
+			"baseURL": "https://ntp1node.nebl.io//",
+			"tags": "Builds",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/builds/master/_listings/neblio/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "CircleCI",
+			"x-api-slug": "circleci",
+			"description": "CircleCI???s continuous integration and delivery platform makes it easy for teams of all sizes to rapidly build and release quality software at scale.  Build for Linux, macOS, and Android, in the cloud or behind your firewall.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28120-circleci.jpg",
+			"humanURL": "http://circleci.com",
+			"baseURL": "https://circleci.com//api/v1",
+			"tags": "Builds",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/builds/master/_listings/circleci/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AppVeyor CI",
+			"x-api-slug": "appveyor-ci",
+			"description": "We provide continuous integration tools for Windows developers. The service is offered for free to open-source projects, we offer subscriptions for private projects and AppVeyor Enterprise installations on customer premises.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28368-app-veyor.jpg",
+			"humanURL": "http://appveyor.com",
+			"baseURL": "https://ci.appveyor.com//api",
+			"tags": "Builds",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/builds/master/_listings/appveyor-ci/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Codefresh",
+			"x-api-slug": "codefresh",
+			"description": "Docker Automation and Collaboration for Agile Teams. Codefresh lets dev, QA and product work together on Docker compositions, including CI/CD, manual testing and feature previews.Codefresh enables you to instantly leverage all the benefits of Docker, w...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28738-codefresh-io.jpg",
+			"humanURL": "https://codefresh.io",
+			"baseURL": "https://g.codefresh.io//api",
+			"tags": "Builds",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/builds/master/_listings/codefresh/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "GitLab",
+			"x-api-slug": "gitlab",
+			"description": "GitLab is a web-based Git-repository manager with wiki, issue-tracking and CI/CD pipelines features, using an open-source license, developed by GitLab Inc.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/githlab-logo.png",
+			"humanURL": "http://gitlab.com",
+			"baseURL": "https://localhost:3000//api",
+			"tags": "Builds",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/builds/master/_listings/gitlab/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Builds",
+	"include": [
+		{
+			"name": "AWS CodeBuild",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/builds/master/_listings/aws-codebuild/apis.yaml"
+		},
+		{
+			"name": "Neblio",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/builds/master/_listings/neblio/apis.yaml"
+		},
+		{
+			"name": "CircleCI",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/builds/master/_listings/circleci/apis.yaml"
+		},
+		{
+			"name": "AppVeyor CI",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/builds/master/_listings/appveyor-ci/apis.yaml"
+		},
+		{
+			"name": "Codefresh",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/builds/master/_listings/codefresh/apis.yaml"
+		},
+		{
+			"name": "GitLab",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/builds/master/_listings/gitlab/apis.yaml"
+		}
+	]
+}
